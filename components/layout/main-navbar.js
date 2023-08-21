@@ -20,7 +20,7 @@ export default function MainNavbar(props) {
   const visible = props.visible
   return (
     <header
-      className={`fixed w-full h-20  z-[100]  backdrop-blur-lg shadow-md lg:pr-[5rem] ${
+      className={`fixed w-full h-20  z-[100] bg-gradient-to-r from-[#141E30] to-[#243B55]  shadow-md lg:pr-[5rem] ${
         !visible && "hidden"
       }`}
     >

@@ -5,6 +5,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color:#141E30
 }
 
 @layer base {
@@ -17,7 +18,7 @@ html {
   h4,
   h5,
   h6 {
-    @apply font-bold !important;
+    @apply font-bold opacity-80 !important;
   }
   h1 {
     @apply text-5xl sm:text-5xl md:text-6xl lg:text-6xl !important;

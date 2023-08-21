@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function AboutMeBio() {
   return (
       <div className="h-[100%] md:h-[100%] lg:h-screen flex w-[100%] sm:w-[100%] md:w-[100%] lg:w-[50%] ml-auto z-50">
-        <div className="m-auto py-10 px-5 self-end">
+        <div className="m-auto py-10 self-end">
           <h3 className="my-5  text-slate-50 font-normal dark:text-slate-200">
             ABOUT
           </h3>

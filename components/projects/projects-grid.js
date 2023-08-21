@@ -35,7 +35,7 @@ export default function ProjectsGrid(props) {
   const projects = props.projects.projects
   
   return (
-    <div className="w-[100%] px-5 lg:px-0">
+    <div className="w-[100%] lg:px-0">
     <ul className="list-none m-0 p-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 content-center">
       {projects.map((project, index) => (
         <ProjectItem key={index} project={project} />

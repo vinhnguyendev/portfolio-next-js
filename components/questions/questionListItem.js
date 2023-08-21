@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 
 export default function QuestionListItem(props) {
-  const { id, question, answer } = props.question;
+  const { question, answer } = props.question;
   const [open, setOpen] = useState(false);
 
   return (
@@ -13,8 +13,10 @@ export default function QuestionListItem(props) {
           {open ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </button>
       </div>
-      <div className={!open? "hidden" : "bg-[#4b5563] border  border-slate-600 bg-opacity-20 my-5 p-5 rounded-xl drop-shadow-lg mt-4"}>
+      <div className={!open? "max-h-0 opacity-0 mt-0 transition-all duration-200" : "overflow-hidden transition-all duration-500 max-h-full opacity-100 mt-2 "}>
+      <div className="bg-[#4b5563] border  border-slate-600 bg-opacity-20 my-5 p-5 rounded-xl drop-shadow-lg mt-4">
       <p>"{answer}"</p>
+      </div>
       </div>
     </li>
   );

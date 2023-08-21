@@ -92,7 +92,7 @@ export default function ContactForm() {
           <h3 className="text-base font-semibold leading-7 uppercase dark:text-white">
             Contact me
           </h3>
-          <p className="mt-1 text-sm ">
+          <p className="mt-1 text-md ">
             Currently open for a new opportunities, let's connect!
           </p>
 
@@ -100,7 +100,7 @@ export default function ContactForm() {
             <div className="sm:col-span-3">
               <label
                 htmlFor="first-name"
-                className="block text-sm font-medium leading-6 text-gray-400"
+                className="block text-lg lg:text-md font-medium leading-6 text-gray-400"
               >
                 Your Name
               </label>
@@ -121,7 +121,7 @@ export default function ContactForm() {
             <div className="sm:col-span-3">
               <label
                 htmlFor="last-name"
-                className="block text-sm font-medium leading-6t text-gray-400"
+                className="block text-lg lg:text-md  font-medium leading-6t text-gray-400"
               >
                 Your Email
               </label>
@@ -142,7 +142,7 @@ export default function ContactForm() {
             <div className="sm:col-span-6">
               <label
                 htmlFor="email"
-                className="block text-sm font-medium leading-6 text-gray-400"
+                className="block text-lg lg:text-md  font-medium leading-6 text-gray-400"
               >
                 Your Message
               </label>

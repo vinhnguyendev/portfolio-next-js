@@ -62,7 +62,7 @@ export default function TestimonialSlider() {
             </span>
           </div>
         </div>
-        <p className="testimonial-text text-sm py-4">
+        <p className="testimonial-text text-md py-4">
           "{testimonials[currentTestimonial].text}"
         </p>
         <Link
