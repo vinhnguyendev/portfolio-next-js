@@ -12,7 +12,7 @@ export default function AboutMeBio() {
           </h3>
           <AboutMeBlog />
           <div className="mt-11">
-            <Link href="https://docs.google.com/document/d/1KcRl5uGOgIPdZXXZbxYd94FMY2tZkcH0kZETrwImLvI/export?format=pdf">
+            <Link href="https://docs.google.com/document/d/1y4HUl21jdgagOKpL8QxIZvy2AvOcv_6uDpKkkrexAWw/export?format=pdf">
               <div className="flex text-neutral-500 underline hover:text-[#3E6E8E]">
               <span>View Full Resume</span>
               <span className="my-auto ps-2">

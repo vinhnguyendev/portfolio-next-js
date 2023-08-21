@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="flex flex-col md:flex-row lg:flex-row justify-between px-4 lg:pl-10 lg:pr-[5rem] pt-7 border-t-[0.05rem] border-gray-700 pb-11 ">
       <div className="py-2 lg:z-50">
-        <Link href="https://github.com/">
+        <Link href="https://github.com/vinhnguyendev/portfolio-next-js">
           <p className="flex underline">
             <AiFillGithub className="mr-1 my-auto" /> Github Repo
           </p>
