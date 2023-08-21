@@ -2,26 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  body {
+    @apply bg-gradient-to-r from-[#141E30] to-[#243B55]  text-[#FFFFFF] max-w-full tracking-wide !important;
   }
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold !important;
+  }
+  h1 {
+    @apply text-5xl sm:text-5xl md:text-6xl lg:text-6xl !important;
+  }
+  h2 {
+    @apply text-4xl sm:text-4xl md:text-5xl lg:text-5xl  font-light !important;
+  }
+  p {
+    @apply text-lg font-normal text-gray-500 dark:text-gray-400 lg:text-sm;
+  }
+  li {
+    @apply cursor-pointer !important;
+  }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  svg {
+    @apply flex mr-3 my-auto
+  }
+  .highlight-text{
+    @apply text-[#f1807e]
+  }
 }
