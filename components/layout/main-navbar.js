@@ -41,7 +41,7 @@ const MobileNavBar = (props) => {
       {navLinks.map((link, index) => {
         return (
           <li
-            className={`p-3 rounded-full ${
+            className={`p-2 rounded-full ${
               link.link === activeSection
                 ? "bg-[#243B55] opacity-90"
                 : "opacity-50"
