@@ -30,8 +30,9 @@ html {
     @apply text-lg font-normal text-gray-500 dark:text-gray-400 lg:text-sm;
   }
   li {
-    @apply cursor-pointer !important;
+    @apply cursor-pointer text-slate-300 !important;
   }
+
 
   input {
     @apply h-[45px]
@@ -40,11 +41,11 @@ html {
   button {
     @apply h-[57px]
   }
-
   svg {
     @apply flex mr-3 my-auto
   }
   .highlight-text{
     @apply text-[#f1807e]
   }
+ 
 }
