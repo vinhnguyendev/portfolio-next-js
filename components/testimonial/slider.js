@@ -20,7 +20,7 @@ const testimonials = [
     role: "Co-Founder",
     company: "Clingstone",
     text: "Vinh is an extremely talented individual and an asset to any development team. He excels in his ability to think creatively and come up with unique, efficient solutions for any problem. His attention to detail is unmatched, and his work ethic is second-to-none",
-  }
+  },
 ];
 
 export default function TestimonialSlider() {
@@ -41,14 +41,16 @@ export default function TestimonialSlider() {
     <div className="testimonial-slider flex flex-col justify-end lg:w-[50%]">
       <SliderHeader />
       <div className="testimonial text-start mb-8 py-5 px-4  bg-white bg-opacity-5 backdrop-blur-lg rounded drop-shadow-lg">
-        <div className="flex gap-2">
-          <Image
-            className="rounded-full"
-            src={imagePath}
-            height={70}
-            width={70}
-            alt={testimonials[currentTestimonial].name}
-          />
+        <div className="flex gap-2 ">
+          <div className="flex">
+            <Image
+              className="rounded-full h-[50px] w--[50px] m-auto"
+              src={imagePath}
+              height="50"
+              width="50"
+              alt={testimonials[currentTestimonial].name}
+            />
+          </div>
           <div className="p-2">
             <h5 className="testimonial-name italic">
               {testimonials[currentTestimonial].name}
@@ -90,7 +92,13 @@ export default function TestimonialSlider() {
           <div className="flex">
             <p className="text-white">{testimonials[currentTestimonial].id}</p>
             <p className="px-1">/</p>
-            <p className={testimonials[currentTestimonial].id == testimonials.length? "text-white" : ""} >
+            <p
+              className={
+                testimonials[currentTestimonial].id == testimonials.length
+                  ? "text-white"
+                  : ""
+              }
+            >
               {testimonials.length}
             </p>
           </div>
