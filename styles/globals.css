@@ -33,6 +33,14 @@ html {
     @apply cursor-pointer !important;
   }
 
+  input {
+    @apply h-[45px]
+  }
+
+  button {
+    @apply h-[57px]
+  }
+
   svg {
     @apply flex mr-3 my-auto
   }
