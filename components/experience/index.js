@@ -5,40 +5,31 @@ import TimelineItem from "./timeline-item";
 const EXPERIENCES = [
   {
     id: 1,
-    date: "JUN 2023 - Present",
-    title: "React Developer",
-    company: "Independent Project",
-    location: "Remote",
-    description:"Immersed in an exciting journey of building an independent project that involves the integration of the Plaid API. Through this ongoing experience, I am gaining hands-on expertise in connecting with Plaid's API to access and leverage financial data effectively",
-    skills: ["Next.js","Plaid API","TypeScript","Data visualization"]
+    date: "JUL 2023 - Present",
+    title: "Software Engineer",
+    company: "iGeek Systems Inc.",
+    location: "Sarasota, FL",
+    description:"Integrated RESTful APIs to design and execute dynamic web pages that effortlessly retrieve and exhibit real-time data from MySQL databases. ",
+    skills: ["Restful APIs","TypeScript","Data visualization", "MySQL"]
   },
   {
     id: 2,
     date: "OCT 2022 - JUL 2023",
-    title: "Web Engineer",
+    title: "Web Engineer Intern",
     company: "Clingstone",
     location: "Plano,TX",
     description:"Crafted UI components, collaborated with designers & PMs for client projects. Automated testing for robust software. Enhanced API functionality & data flow.",
-    skills: ["RESTful APIs","React","Webpack","responsive UI"]
+    skills: ["Next.js","RESTful APIs","React","Webpack","responsive UI", "TailwindCSS"]
   },
   {
     id: 3,
-    date: "AUG 2022 - OCT 2022",
+    date: "JUL 2022 - OCT 2022",
     title: "Full Stack Web Developer",
     company: "DevMountain Coding Bootcamp",
     location: "Lehi, UT",
     description:"Created, managed, and deployed full-stack applications utilizing various modern technologies within a short amount of time. Led Agile projects, promoted pair programming, and facilitated productive team meetings.",
-    skills: ["MERN stack","CSS3","Jest"]
-  },
-  {
-    id: 4,
-    date: "JUN 2022 - AUG 2022",
-    title: "Web Developer",
-    company: "DevMountain Coding Bootcamp",
-    location: "Lehi, UT",
-    description:"Recognized by Software Developer mentors for excelling in challenges, projects, quick learning, and stylish design. ",
-    skills: ["HTML", "CSS3","JavaScript","Node.js"]
-  },
+    skills: ["MERN stack","React","CSS3","Jest","PostgreSQL"]
+  }
 ];
 
 const Timeline = () => {

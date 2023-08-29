@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Notification from "../ui/notification";
+import { FcOk, FcHighPriority } from "react-icons/fc"
+import { AiOutlineLoading3Quarters } from "react-icons/ai"
 
 async function sendContactData(contactDetails) {
   const response = await fetch("/api/contact", {
@@ -63,6 +65,7 @@ export default function ContactForm() {
       status: 'pending',
       title: 'Sending message...',
       message: 'Your message is on its way!',
+      icon: <AiOutlineLoading3Quarters className="animate-spin"/>
     };
   }
 
@@ -71,6 +74,7 @@ export default function ContactForm() {
       status: 'success',
       title: ' Message Sent!!',
       message: 'Message sent successfully!',
+      icon: <FcOk />
     };
   }
 
@@ -79,6 +83,7 @@ export default function ContactForm() {
       status: 'error',
       title: 'Message Error!',
       message: requestError,
+      icon: <FcHighPriority />
     };
   }
 
@@ -121,11 +126,11 @@ export default function ContactForm() {
             <div className="sm:col-span-3">
               <label
                 htmlFor="last-name"
-                className="block text-lg lg:text-md  font-medium leading-6t text-gray-400"
+                className="block text-lg lg:text-md  font-medium leading-6 text-gray-400"
               >
                 Your Email
               </label>
-              <div className="mt-3">
+              <div className="mt-2">
                 <input
                   type="email"
                   name="email"
@@ -174,6 +179,7 @@ export default function ContactForm() {
           status={notification.status}
           title={notification.title}
           message={notification.message}
+          icon={notification.icon}
         />
       )}
     </>
