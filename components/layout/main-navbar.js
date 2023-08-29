@@ -13,13 +13,13 @@ const MobileNavBar = (props) => {
   const navLinks = props.navLinks;
 
   const activeNavItem = () => {
-    if (481 < lastScrollY && lastScrollY < 1199) {
+    if (481 < lastScrollY && lastScrollY < 1180) {
       setActiveSection("#about");
-    } else if (1199 < lastScrollY && lastScrollY < 2737) {
+    } else if (1180 < lastScrollY && lastScrollY < 2407) {
       setActiveSection("#experience");
-    } else if (2737 < lastScrollY && lastScrollY < 4434) {
+    } else if (2407 < lastScrollY && lastScrollY < 3414) {
       setActiveSection("#projects");
-    } else if (5146 < lastScrollY && lastScrollY < 5603) {
+    } else if (4750 < lastScrollY && lastScrollY < 4920) {
       setActiveSection("#form");
     }
 

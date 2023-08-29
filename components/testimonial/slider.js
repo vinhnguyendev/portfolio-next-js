@@ -40,7 +40,7 @@ export default function TestimonialSlider() {
   return (
     <div className="testimonial-slider flex flex-col justify-end lg:w-[50%]">
       <SliderHeader />
-      <div className="testimonial text-start mb-8 py-5 px-4  bg-white bg-opacity-5 backdrop-blur-lg rounded drop-shadow-lg">
+      <div className="testimonial text-start h-[440px] md:h-[300px] lg:h-[240px] mb-8 py-5 px-4  bg-white bg-opacity-5 backdrop-blur-lg rounded drop-shadow-lg">
         <div className="flex gap-2 ">
           <div className="flex">
             <Image
