@@ -104,10 +104,10 @@ export default function ContactForm() {
           <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
             <div className="sm:col-span-3">
               <label
-                htmlFor="first-name"
+                htmlFor="full-name"
                 className="block text-lg lg:text-md font-medium leading-6 text-gray-400"
               >
-                Your Name
+                Full Name
               </label>
               <div className="mt-2">
                 <input
@@ -125,10 +125,10 @@ export default function ContactForm() {
 
             <div className="sm:col-span-3">
               <label
-                htmlFor="last-name"
+                htmlFor="email"
                 className="block text-lg lg:text-md  font-medium leading-6 text-gray-400"
               >
-                Your Email
+                Email
               </label>
               <div className="mt-2">
                 <input
@@ -146,10 +146,10 @@ export default function ContactForm() {
 
             <div className="sm:col-span-6">
               <label
-                htmlFor="email"
+                htmlFor="message"
                 className="block text-lg lg:text-md  font-medium leading-6 text-gray-400"
               >
-                Your Message
+                Message
               </label>
               <div className="flex flex-col mt-2 gap-5">
                 <textarea

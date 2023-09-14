@@ -52,9 +52,9 @@ export default function TestimonialSlider() {
             />
           </div>
           <div className="p-2">
-            <h5 className="testimonial-name italic">
+            <p className="testimonial-name text-lg">
               {testimonials[currentTestimonial].name}
-            </h5>
+            </p>
             <span className="text-xs">
               {testimonials[currentTestimonial].role}
             </span>

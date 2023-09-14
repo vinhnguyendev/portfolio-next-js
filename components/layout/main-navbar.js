@@ -21,7 +21,7 @@ const MobileNavBar = (props) => {
       setActiveSection("#projects");
     } else if (4750 < lastScrollY && lastScrollY < 4920) {
       setActiveSection("#form");
-    }
+    } 
 
     setLastScrollY(window.scrollY);
   };

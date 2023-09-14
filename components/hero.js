@@ -2,8 +2,6 @@ import React from "react";
 import { AiFillInstagram, AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-
-
 export default function Hero() {
   const heroTitle = {
     title: "Vinh Nguyen",
@@ -22,23 +20,33 @@ export default function Hero() {
             </p>
           </div>
           <div className="flex md:justify-center lg:justify-start my-4 ">
-          <ul className="flex lg:justify-between justify-start my-4 w-[100%] lg:w-[60%] lg:py-11 lg:px-0 gap-7">
-            <a href="https://www.linkedin.com/in/vinh-nguyen-software-developer/" className="cursor-pointer">
+            <ul className="flex lg:justify-between justify-start my-4 w-[100%] lg:w-[60%] lg:py-11 lg:px-0 gap-7">
               <li className="ease-in duration-100 hover:scale-150">
-                <FaLinkedinIn size={25} />
+                <a
+                  href="https://www.linkedin.com/in/vinh-nguyen-software-developer/"
+                  className="cursor-pointer"
+                >
+                  <FaLinkedinIn size={25} />
+                </a>
               </li>
-            </a>
-            <a href="https://instagram.com/vinhnguyen.dev?igshid=OGQ5ZDc2ODk2ZA==" className="cursor-pointer">
               <li className="ease-in duration-100 hover:scale-150">
-                <AiFillInstagram size={25} />
+                <a
+                  href="https://instagram.com/vinhnguyen.dev?igshid=OGQ5ZDc2ODk2ZA=="
+                  className="cursor-pointer"
+                >
+                  <AiFillInstagram size={25} />
+                </a>
               </li>
-            </a>
-            <a href="https://github.com/vinhnguyendev" className="cursor-pointer">
+
               <li className="ease-in duration-100 hover:scale-150">
-                <AiFillGithub size={25} />
+                <a
+                  href="https://github.com/vinhnguyendev"
+                  className="cursor-pointer"
+                >
+                  <AiFillGithub size={25} />
+                </a>
               </li>
-            </a>
-          </ul>
+            </ul>
           </div>
         </div>
       </div>
