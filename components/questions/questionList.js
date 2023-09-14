@@ -22,13 +22,8 @@ const questions = [
   ];
   
 export default function QuestionsList() {
-  
-
     return (
-      <ul role="list" className="divide-y divide-gray-100 w-[100%] lg:w-[50%]">
-         <h3 className="my-5  text-slate-50 font-normal dark:text-slate-200">
-            FAQ
-          </h3>
+      <ul role="list" className="divide-y divide-gray-100">
         {questions.map((question) => (
           <QuestionListItem key={question.question} question={question}/>
         ))}

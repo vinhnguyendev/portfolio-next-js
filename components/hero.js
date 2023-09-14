@@ -25,6 +25,7 @@ export default function Hero() {
                 <a
                   href="https://www.linkedin.com/in/vinh-nguyen-software-developer/"
                   className="cursor-pointer"
+                  aria-label="LinkedIn"
                 >
                   <FaLinkedinIn size={25} />
                 </a>
@@ -33,6 +34,7 @@ export default function Hero() {
                 <a
                   href="https://instagram.com/vinhnguyen.dev?igshid=OGQ5ZDc2ODk2ZA=="
                   className="cursor-pointer"
+                  aria-label="Instagram"
                 >
                   <AiFillInstagram size={25} />
                 </a>
@@ -42,6 +44,7 @@ export default function Hero() {
                 <a
                   href="https://github.com/vinhnguyendev"
                   className="cursor-pointer"
+                  aria-label="Github"
                 >
                   <AiFillGithub size={25} />
                 </a>

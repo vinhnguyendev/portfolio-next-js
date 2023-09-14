@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 
 export default function QuestionListItem(props) {
   const { question, answer } = props.question;
@@ -9,8 +9,8 @@ export default function QuestionListItem(props) {
     <li onClick={() => (open ? setOpen(false) : setOpen(true))} key={question} className="py-5 relative">
       <div className="flex justify-between gap-x-6 ">
         <p>{question}</p>
-        <button >
-          {open ? <AiOutlineMinus /> : <AiOutlinePlus />}
+        <button className="flex" >
+          <span className="m-auto">{open ? <FiChevronUp /> : <FiChevronDown />}</span>
         </button>
       </div>
       <div className={!open? "absolute max-h-0 opacity-0 mt-[-50] transition-all duration-200" : "overflow-hidden transition-all duration-500 max-h-full opacity-100 mt-4"}>
