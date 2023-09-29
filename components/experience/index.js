@@ -5,7 +5,7 @@ import TimelineItem from "./timeline-item";
 const EXPERIENCES = [
   {
     id: 1,
-    date: "JUL 2023 - Present",
+    date: "MAY 2023 - SEP 2023",
     title: "Software Engineer",
     company: "iGeek Systems Inc.",
     location: "Sarasota, FL",
@@ -14,7 +14,7 @@ const EXPERIENCES = [
   },
   {
     id: 2,
-    date: "OCT 2022 - JUL 2023",
+    date: "OCT 2022 - APR 2023",
     title: "Web Engineer Intern",
     company: "Clingstone",
     location: "Plano,TX",
