@@ -5,20 +5,20 @@ import TimelineItem from "./timeline-item";
 const EXPERIENCES = [
   {
     id: 1,
-    date: "MAY 2023 - SEP 2023",
-    title: "Software Engineer",
-    company: "iGeek Systems Inc.",
-    location: "Sarasota, FL",
-    description:"Integrated RESTful APIs to design and execute dynamic web pages that effortlessly retrieve and exhibit real-time data from MySQL databases. ",
+    date: "FEB 2023 - SEP 2023",
+    title: "Full-stack developer",
+    company: "Clingstone",
+    location: "Plano, TX",
+    description:"Built privacy features for a browser app, creating a user interface, saving settings with React Context, and boosting security and trust in user registration/login by 50% with Firebase Authentication.",
     skills: ["Restful APIs","TypeScript","Data visualization", "MySQL"]
   },
   {
     id: 2,
-    date: "OCT 2022 - APR 2023",
+    date: "OCT 2022 - FEB 2023",
     title: "Web Engineer Intern",
     company: "Clingstone",
     location: "Plano,TX",
-    description:"Crafted UI components, collaborated with designers & PMs for client projects. Automated testing for robust software. Enhanced API functionality & data flow.",
+    description:"Transformed a static HTML5 project into a more efficient React.js(TypeScript) application, reducing 50% of redundant code and enhancing project scalability. Additionally, successfully built and deployed a company website and an MVP image-generating application for a client using React, Node, MongoDB, and the OpenAI API.",
     skills: ["Next.js","RESTful APIs","React","Webpack","responsive UI", "TailwindCSS"]
   },
   {
