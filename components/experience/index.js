@@ -5,7 +5,7 @@ import TimelineItem from "./timeline-item";
 const EXPERIENCES = [
   {
     id: 1,
-    date: "FEB 2023 - SEP 2023",
+    date: "APR 2023 - OCT 2023",
     title: "Full-stack developer",
     company: "Clingstone",
     location: "Plano, TX",
@@ -14,8 +14,8 @@ const EXPERIENCES = [
   },
   {
     id: 2,
-    date: "OCT 2022 - FEB 2023",
-    title: "Web Engineer Intern",
+    date: "OCT 2022 - MAR 2023",
+    title: "Frontend Web Developer Intern",
     company: "Clingstone",
     location: "Plano,TX",
     description:"Transformed a static HTML5 project into a more efficient React.js(TypeScript) application, reducing 50% of redundant code and enhancing project scalability. Additionally, successfully built and deployed a company website and an MVP image-generating application for a client using React, Node, MongoDB, and the OpenAI API.",
